@@ -11,7 +11,7 @@ art = Namespace("https://w3id.org/artchives/")
 g = rdflib.ConjunctiveGraph()
 
 # parse a local RDF file by specifying the format
-result = g.parse("C:\\Users\\bordi\\OneDrive\\Desktop\\dhdk_epds\\resources\\artchives.nq", format='nquads')
+result = g.parse("C:\\Users\\bordi\\OneDrive\\Desktop\\epds\\2021-2022\\resources\\artchives.nq", format='nquads')
 
 colls_and_people = []
 
